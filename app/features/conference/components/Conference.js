@@ -265,7 +265,7 @@ class Conference extends Component<Props, State> {
 
         setupScreenSharingRender(this._api);
         new RemoteControl(iframe); // eslint-disable-line no-new
-        setupAlwaysOnTopRender(this._api);
+//      setupAlwaysOnTopRender(this._api);
         setupWiFiStats(iframe);
         setupPowerMonitorRender(this._api);
 

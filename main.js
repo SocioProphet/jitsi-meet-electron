@@ -153,7 +153,7 @@ function createJitsiMeetWindow() {
     mainWindow.loadURL(indexURL);
 
     initPopupsConfigurationMain(mainWindow);
-    setupAlwaysOnTopMain(mainWindow);
+//  setupAlwaysOnTopMain(mainWindow);
     setupPowerMonitorMain(mainWindow);
     setupScreenSharingMain(mainWindow, config.default.appName);
 
